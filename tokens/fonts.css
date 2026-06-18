@@ -1,0 +1,5 @@
+/* AiDisco webfonts — Space Grotesk (display) + Inter (body/UI).
+   Both are the real brand typefaces, loaded from the Google Fonts CDN.
+   To self-host, replace the @import with local @font-face rules and drop
+   the woff2 files into assets/fonts/. */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');

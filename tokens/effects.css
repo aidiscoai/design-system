@@ -1,0 +1,36 @@
+/* ============================================================
+   AiDisco — Effects: radii, shadows, glows, blur, motion
+   Signature: soft glow edges for depth, violet->cyan transitions.
+   ============================================================ */
+:root {
+  /* Radii — measured, techy. Not pill-soft. */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-pill: 999px;
+
+  /* Elevation shadows (on a dark stage, shadows are deep + soft) */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 24px 64px rgba(0, 0, 0, 0.55);
+
+  /* Signature glows — the "controlled bursts of light" */
+  --glow-violet: 0 0 0 1px rgba(123, 92, 255, 0.35), 0 0 28px rgba(123, 92, 255, 0.45);
+  --glow-cyan:   0 0 0 1px rgba(0, 229, 255, 0.35), 0 0 28px rgba(0, 229, 255, 0.40);
+  --glow-magenta:0 0 0 1px rgba(255, 45, 166, 0.35), 0 0 28px rgba(255, 45, 166, 0.42);
+  --glow-soft:   0 0 40px rgba(123, 92, 255, 0.25);
+
+  /* Glass / blur */
+  --blur-panel: blur(16px); /* @kind other */
+  --glass-fill: rgba(18, 24, 38, 0.65);
+  --glass-border: rgba(245, 247, 250, 0.12);
+
+  /* Motion — implied movement even in static layouts */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1); /* @kind other */
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1); /* @kind other */
+  --dur-fast: 120ms; /* @kind other */
+  --dur-base: 200ms; /* @kind other */
+  --dur-slow: 360ms; /* @kind other */
+}

@@ -1,0 +1,40 @@
+/* ============================================================
+   AiDisco — Typography
+   Display: Space Grotesk (tight tracking, bold, oversized).
+   Body/UI: Inter (clean, legible).
+   Mono: JetBrains Mono (terminal / data-readout motif).
+   ============================================================ */
+:root {
+  --font-display: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+  --font-body:    'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono:    'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+
+  /* Weights */
+  --fw-regular: 400; /* @kind other */
+  --fw-medium:  500; /* @kind other */
+  --fw-semibold: 600; /* @kind other */
+  --fw-bold:    700; /* @kind other */
+
+  /* Type scale (rem; 1rem = 16px) */
+  --fs-display: 4.5rem;   /* 72 — hero */
+  --fs-h1:      3rem;     /* 48 */
+  --fs-h2:      2.25rem;  /* 36 */
+  --fs-h3:      1.5rem;   /* 24 */
+  --fs-h4:      1.25rem;  /* 20 */
+  --fs-lg:      1.125rem; /* 18 */
+  --fs-body:    1rem;     /* 16 */
+  --fs-sm:      0.875rem; /* 14 */
+  --fs-xs:      0.75rem;  /* 12 */
+  --fs-eyebrow: 0.8125rem;/* 13 — mono eyebrows / labels */
+
+  /* Line heights */
+  --lh-tight: 1.05; /* @kind other */
+  --lh-snug:  1.2; /* @kind other */
+  --lh-body:  1.6; /* @kind other */
+
+  /* Letter spacing — display is TIGHT, mono labels are WIDE */
+  --ls-display: -0.03em; /* @kind other */
+  --ls-heading: -0.02em; /* @kind other */
+  --ls-body:    0;        /* @kind other */
+  --ls-label:   0.14em;   /* @kind other */ /* uppercase mono eyebrows */
+}
