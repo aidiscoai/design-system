@@ -1,0 +1,22 @@
+<!-- @dsCard group="Colors" viewport="700x180" name="Neutrals" subtitle="Soft White, Cool Gray, Deep Slate — type & UI" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="../styles.css" />
+<style>
+  body { margin: 0; padding: 20px; background: var(--deep-indigo); font-family: var(--font-body); }
+  .row { display: flex; gap: 14px; }
+  .sw { flex: 1; border-radius: var(--radius-md); padding: 14px; height: 108px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: flex-end; border: 1px solid var(--border); }
+  .name { font-weight: 600; font-size: 14px; }
+  .hex { font-family: var(--font-mono); font-size: 12px; margin-top: 2px; }
+</style>
+</head>
+<body>
+  <div class="row">
+    <div class="sw" style="background: var(--soft-white);"><span class="name" style="color:#0A0A0F">Soft White</span><span class="hex" style="color:#64748B">#F5F7FA</span></div>
+    <div class="sw" style="background: var(--cool-gray);"><span class="name" style="color:#0A0A0F">Cool Gray</span><span class="hex" style="color:#1F2937">#9CA3AF</span></div>
+    <div class="sw" style="background: var(--deep-slate);"><span class="name" style="color:#F5F7FA">Deep Slate</span><span class="hex" style="color:#9CA3AF">#1F2937</span></div>
+  </div>
+</body>
+</html>

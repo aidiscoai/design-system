@@ -1,0 +1,25 @@
+<!-- @dsCard group="Colors" viewport="700x180" name="Accent Core — bursts of light" subtitle="Electric Violet (primary), Neon Cyan, Laser Magenta" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="../styles.css" />
+<style>
+  body { margin: 0; padding: 20px; background: var(--midnight-black); font-family: var(--font-body); }
+  .row { display: flex; gap: 14px; }
+  .sw { flex: 1; border-radius: var(--radius-md); padding: 14px; height: 108px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: space-between; }
+  .role { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; opacity: 0.85; }
+  .name { font-weight: 700; font-size: 15px; }
+  .hex { font-family: var(--font-mono); font-size: 12px; opacity: 0.9; }
+  .dark { color: var(--midnight-black); }
+  .light { color: var(--soft-white); }
+</style>
+</head>
+<body>
+  <div class="row">
+    <div class="sw dark" style="background: var(--electric-violet); box-shadow: var(--glow-violet);"><span class="role">Primary</span><div><div class="name">Electric Violet</div><div class="hex">#7B5CFF</div></div></div>
+    <div class="sw dark" style="background: var(--neon-cyan); box-shadow: var(--glow-cyan);"><span class="role">Secondary</span><div><div class="name">Neon Cyan</div><div class="hex">#00E5FF</div></div></div>
+    <div class="sw light" style="background: var(--laser-magenta); box-shadow: var(--glow-magenta);"><span class="role">Expression</span><div><div class="name">Laser Magenta</div><div class="hex">#FF2DA6</div></div></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!-- @dsCard group="Spacing" viewport="700x190" name="Glows & Shadows" subtitle="Soft neon edges + deep elevation on the dark stage" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="../styles.css" />
+<style>
+  body { margin: 0; padding: 26px; background: var(--midnight-black); font-family: var(--font-mono); }
+  .row { display: flex; gap: 26px; align-items: center; }
+  .col { display: flex; flex-direction: column; align-items: center; gap: 14px; }
+  .box { width: 90px; height: 60px; border-radius: var(--radius-md); background: var(--deep-indigo); }
+  .lbl { font-size: 11px; color: var(--cool-gray); }
+</style>
+</head>
+<body>
+  <div class="row">
+    <div class="col"><div class="box" style="box-shadow: var(--shadow-md)"></div><span class="lbl">shadow-md</span></div>
+    <div class="col"><div class="box" style="box-shadow: var(--shadow-lg)"></div><span class="lbl">shadow-lg</span></div>
+    <div class="col"><div class="box" style="box-shadow: var(--glow-violet)"></div><span class="lbl">glow-violet</span></div>
+    <div class="col"><div class="box" style="box-shadow: var(--glow-cyan)"></div><span class="lbl">glow-cyan</span></div>
+    <div class="col"><div class="box" style="box-shadow: var(--glow-magenta)"></div><span class="lbl">glow-magenta</span></div>
+  </div>
+</body>
+</html>

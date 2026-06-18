@@ -1,0 +1,21 @@
+<!-- @dsCard group="Type" viewport="700x240" name="Type Scale" subtitle="Display 72 → caption 12 on an 8px rhythm" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="../styles.css" />
+<style>
+  body { margin: 0; padding: 20px; background: var(--bg-surface); color: var(--soft-white); }
+  .r { display: flex; align-items: baseline; gap: 16px; padding: 5px 0; }
+  .tok { font-family: var(--font-mono); font-size: 11px; color: var(--neon-cyan); width: 92px; flex: none; }
+  .ex { font-family: var(--font-display); font-weight: 600; letter-spacing: -0.02em; white-space: nowrap; }
+  .body { font-family: var(--font-body); font-weight: 400; letter-spacing: 0; }
+</style>
+</head>
+<body>
+  <div class="r"><span class="tok">--fs-h1</span><span class="ex" style="font-size:40px">Be discovered</span></div>
+  <div class="r"><span class="tok">--fs-h3</span><span class="ex" style="font-size:24px">Section header</span></div>
+  <div class="r"><span class="tok">--fs-body</span><span class="ex body" style="font-size:16px">Body copy — Inter regular</span></div>
+  <div class="r"><span class="tok">--fs-xs</span><span class="ex body" style="font-size:12px; color: var(--cool-gray)">Caption / meta label</span></div>
+</body>
+</html>
