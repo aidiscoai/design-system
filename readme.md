@@ -14,6 +14,7 @@ This design system encodes that brand into reusable tokens, components, and full
 Nothing here assumes you can open these — they're recorded for provenance and deeper exploration:
 
 - **`uploads/AiDisco Design Visual Study.pdf`** — the brand's own "Design Philosophy: Signal in the Noise" study. Primary source for the palette, type pairing, and tone rules below.
+- **GitHub — [`aidiscoai/design-system`](https://github.com/aidiscoai/design-system))** - the brand book for AiDisco
 - **GitHub — [`aidiscoai/aeo-framework`](https://github.com/aidiscoai/aeo-framework)** — the public AEO framework: README, `SCHEMA_ALIGNMENT.md`, `PROMPT_ARCHITECTURE.md`, `CONTRIBUTING.md`, and a "Be Discovered" pitch deck PDF. Explore it for the product narrative, the three pillars, and copy voice. *Recommended reading before building product/marketing surfaces.*
 - **Live site — aidisco.ai** — source of the terminal / "LIVE_QUERY_ANALYSIS" data-readout motif and the MATCH / IGNORE narrative device.
 - **Approved logo lockups** — supplied by the user, stored in `assets/logos/` (primary, secondary, monochrome, icon-only, and website variants for dark & light backgrounds).
